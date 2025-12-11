@@ -2,7 +2,7 @@ import './style.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import { createPinia } from 'pinia'
-import router from './router/router'
+import router from './router'
 import VCalendar from 'v-calendar'
 import 'v-calendar/style.css'
 

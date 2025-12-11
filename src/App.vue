@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <router-view />
+  <AppLayout>
+    <router-view />
+  </AppLayout>
 </template>
 
 <style scoped></style>
